@@ -1,0 +1,25 @@
+/* Add application styles & imports to this file! */
+img{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.lineheight{
+  line-height: 10px;
+}
+.lineheight2{
+  line-height: 3px;
+}
+.space{
+  margin: 10px;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+}
+card-width{
+  width: 200px;
+}
+h1{
+  font-weight: bold;
+}
