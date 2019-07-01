@@ -8,7 +8,7 @@ img{
   line-height: 10px;
 }
 .lineheight2{
-  line-height: 3px;
+  line-height: 10px;
 }
 .space{
   margin: 10px;
@@ -17,11 +17,15 @@ li{
   list-style-type: none;
   padding: 10px;
 }
-card-width{
-  width: 200px;
+.card{
+  min-height: 150px;
 }
 h1{
   font-weight: bold;
+}
+h2{
+  font-size: 20px;
+  font-weight: 700;
 }
 @media only screen and (max-width: 600px) {
  h2{
@@ -35,7 +39,7 @@ h1{
    line-height: 5px;
  }
  .lineheight2{
-   line-height: 2px;
+   line-height: 4px;
  }
 }
 @media only screen and (max-width: 800px) {
@@ -50,6 +54,6 @@ h1{
    line-height: 2px;
  }
  .lineheight2{
-   line-height: 1px;
+   line-height: 4px;
  }
 }

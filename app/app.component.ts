@@ -17,7 +17,7 @@ export class AppComponent  {
   phone: "(927) 765-1122",
   smallText: "Samsung Galaxy S9 Plus Lilac" 
   },
-  { name: "Donald",
+  { name: "(927) 765-1122",
   phone: "(927) 765-1122",
   smallText: "Samsung Galaxy S10 Plus Black" 
   }]; 
