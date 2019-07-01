@@ -13,7 +13,7 @@ import { Component, Input } from '@angular/core';
                       </div>
                     </div>
                     <div class="col-sm-3">
-                      <img src="..." alt="...">      
+                      <img [src]="'assets/phone_3.jpg'">      
                     </div>
                   </div>
                 </div>
