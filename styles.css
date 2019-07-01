@@ -1,8 +1,8 @@
 /* Add application styles & imports to this file! */
 img{
   margin: auto;
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
 }
 .lineheight{
   line-height: 10px;
@@ -22,4 +22,34 @@ card-width{
 }
 h1{
   font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+ h2{
+   font-size: 18px;
+    font-weight: bold;
+ }
+ p{
+   font-size: 12px;
+ }
+ .lineheight{
+   line-height: 5px;
+ }
+ .lineheight2{
+   line-height: 2px;
+ }
+}
+@media only screen and (max-width: 800px) {
+ h2{
+   font-size: 18px;
+    font-weight: bold;
+ }
+ p{
+   font-size: 10px;
+ }
+ .lineheight{
+   line-height: 2px;
+ }
+ .lineheight2{
+   line-height: 1px;
+ }
 }
