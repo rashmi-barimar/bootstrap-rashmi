@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
   selector: 'blade',
   template: `
               
-                <div class="card width-height">
+                <div class="card h-100">
                   <div class="row">
                     <div class="col-sm-9">
                       <div class="card-body">
