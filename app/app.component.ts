@@ -24,4 +24,10 @@ export class AppComponent  {
   log(x){
     console.log(x);
   }
+  onSubmit(f){
+    console.log(f.value);
+  }
+  display(contact){
+    console.log(contact);
+  }
 }
